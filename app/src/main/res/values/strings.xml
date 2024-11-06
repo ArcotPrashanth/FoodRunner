@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">FoodRunner</string>
+    <string name="mobile_number">Mobile Number(10 Digits)</string>
+    <string name="password">Password</string>
+    <string name="log_in">Login</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="register_yourself">Don\'t Have an Account? Sign Up Now</string>
+    <string name="preferences_file_name">Foodrunner Preferences</string>
+    <string name="reg_name">Name (Min. 3 characters)</string>
+    <string name="reg_email_address">Email Address</string>
+    <string name="reg_mob_num">Mobile Number (10 Digits)</string>
+    <string name="reg_del_addr">Delivery Address</string>
+    <string name="reg_password">Password (Min. 4 characters)</string>
+    <string name="reg_confirm_pass">Confirm Password</string>
+    <string name="home">Home</string>
+    <string name="myProfile">My Profile</string>
+    <string name="favRes">Favourite Restaurants</string>
+    <string name="orderHistory">Order History</string>
+    <string name="faqs">FAQs</string>
+    <string name="logout">Logout</string>
+    <string name="user_name">Username</string>
+    <string name="user_mob">Mobile Number</string>
+    <string name="openDrawer">Open Drawer</string>
+    <string name="closeDrawer">Close Drawer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="name_of_the_restaurant">Name of the Restaurant</string>
+    <string name="cost">Cost Per Person</string>
+    <string name="rating">4.0</string>
+    <string name="action_sort">Sort</string>
+    <string name="loginEmail">Email Address</string>
+    <string name="txtFPMobEmail">Enter your registered mobile number and email below:</string>
+    <string name="nextFP">Next</string>
+    <string name="txtOTP">Enter the received OTP below</string>
+    <string name="et_OTP">OTP (4 characters)</string>
+    <string name="et_new_pass">New Password (Min. 4 characters)</string>
+    <string name="et_con_pass">Confirm Password</string>
+    <string name="btn_submit">Submit</string>
+    <string name="no_favorites">You do not have any favourite Restaurants</string>
+    <string name="restaurant_name">Restaurant</string>
+    <string name="dummy_phone">+91-1234567890</string>
+    <string name="email">Email Address</string>
+    <string name="address">Delivery Address</string>
+    <string name="name">Name</string>
+    <string name="faq_answer_one">A.1 You will be taught using pre-recorded videos and text tutorials. The training has
+        quizzes, assignments, and tests to help you learn better. At the end of the training, you will attempt a project
+        to get hands-on practice of what you learn during your training.
+    </string>
+    <string name="faq_answer_two">A.2 As this is a purely online training program, you can choose to learn at any time
+        of the day. We will recommend a pace to be followed throughout the program, but the actual timings and learning
+        hours can be decided by students according to their convenience.
+    </string>
+    <string name="faq_answer_four">A.4 We recommend spending 10-12 hours per week. However, the actual learning hours
+        can be decided by you as per your convenience.
+    </string>
+    <string name="faq_answer_three">A.3 The training duration is of 6 weeks.</string>
+    <string name="faq_answer_five">A.5 You can choose your preferred batch date while signing up for the training
+        program.
+    </string>
+    <string name="faq_answer_six">A.6 You will be able to download the certificate once you complete your training and
+        take the final test.
+    </string>
+</resources>

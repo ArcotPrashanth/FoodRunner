@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/etRegName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="30dp"
+        android:padding="10dp"
+        android:hint="@string/reg_name"
+        android:drawableLeft="@drawable/ic_name"
+        android:drawablePadding="5dp"
+        android:inputType="text"
+        android:maxLines="1"
+        android:minEms="3"/>
+
+    <EditText
+        android:id="@+id/etRegEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:hint="@string/reg_email_address"
+        android:drawableLeft="@drawable/ic_email"
+        android:drawablePadding="5dp"
+        android:inputType="textEmailAddress"
+        android:maxLines="1"/>
+
+    <EditText
+        android:id="@+id/etRegMobNum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:hint="@string/reg_mob_num"
+        android:drawableLeft="@drawable/ic_mobile"
+        android:drawablePadding="5dp"
+        android:inputType="number"
+        android:maxLength="10"/>
+
+    <EditText
+        android:id="@+id/etRegDelAddr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:hint="@string/reg_del_addr"
+        android:drawableLeft="@drawable/ic_del_addr"
+        android:drawablePadding="5dp"
+        android:inputType="text"
+        android:maxLines="3"/>
+
+    <EditText
+        android:id="@+id/etRegPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:hint="@string/reg_password"
+        android:drawableLeft="@drawable/ic_reg_pass"
+        android:drawablePadding="5dp"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/etRegConPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:hint="@string/reg_confirm_pass"
+        android:drawableLeft="@drawable/ic_reg_con_pass"
+        android:drawablePadding="5dp"
+        android:inputType="text"
+        android:maxLines="1"
+        android:minEms="4"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:padding="14dp"
+        android:background="@color/colorAccent"
+        android:text="Register"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textAllCaps="false"/>
+
+</LinearLayout>
